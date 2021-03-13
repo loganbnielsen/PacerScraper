@@ -50,7 +50,7 @@ def get_status(dname):
 def get_cases(dname):
     df = get_status(dname)
     df = df[df['tried to pull'] == False]
-    cases = [case for case in df['caseno'] if not already_pulled(args.dname, case_num)]
+    cases = [case_num for case_num in df['caseno'] if not already_pulled(args.dname, case_num)]
     return cases
 
 def update_status(dname, res):

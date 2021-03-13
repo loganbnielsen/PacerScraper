@@ -174,7 +174,7 @@ class PacerDriver(webdriver.Chrome):
                 else:
                     atmpt += 1
             else:
-                logger.fatal(f"Not prepared to handle case result: {res}")
+                logger.error(f"Not prepared to handle case result: {res}")
                 break
         return isSuccess
 
