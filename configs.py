@@ -13,6 +13,7 @@ HTML_SAVE_DIRECTORY = {
 }
 
 NAME_MAP = {
+    TERMINAL_KANSAS_KEY: "Kansas Bankruptcy Court",
     TERMINAL_OHIO_NORTH_KEY: "Ohio Northern Bankruptcy Court"
 }
 
@@ -22,7 +23,7 @@ DRIVER_CONFIGS  = {
     "executable": "./chromedriver",
     "run_headless": False,
     "download_dir": ".tmp",
-    "require_exempt_status": False
+    "require_exempt_status": True
 }
 
 SAVE_FREQ = 20
