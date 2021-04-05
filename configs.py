@@ -1,6 +1,8 @@
 TERMINAL_KANSAS_KEY = "kansas"
 TERMINAL_OHIO_NORTH_KEY = "ohio north"
 
+REGISTERED_TERMINAL_KEYS = ["kansas", "ohio north"]
+
 
 DISTRICT_MAP = {
     TERMINAL_KANSAS_KEY: "KS",
@@ -10,6 +12,11 @@ DISTRICT_MAP = {
 HTML_SAVE_DIRECTORY = {
     TERMINAL_KANSAS_KEY: "kansas-html",
     TERMINAL_OHIO_NORTH_KEY: "ohio-north-html"
+}
+
+DOCKET_SAVE_DIRECTORY = {
+    TERMINAL_KANSAS_KEY: "kansas-docket",
+    TERMINAL_OHIO_NORTH_KEY: "ohio-north-docket"
 }
 
 NAME_MAP = {
